@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestell App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.png">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/mediaquery.css">
+    <link rel="stylesheet" href="./styles/shopping_cart.css">
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/arrays.js"></script>
+    <script src="./scripts/templates.js"></script>
+</head>
+
+<body onload="init()">
+    <header class="padding-responsive">
+        <img class="header_logo" src="./assets/icons/logo.png" alt="Bestell-App Logo">
+    </header>
+
+    <div id="overlay" class="overlay d_none" onclick="removeOverlays()"></div>
+    <div id="responsive_overlay" class="overlay d_none" onclick="removeOverlays()"></div>
+
+    <section id="order_completed" class="d_none">
+        <div>
+            <p>Deine Testbestellung wurde abgeschickt!</p>
+            <p>Vielen Dank!</p>
+            <button onclick="removeOverlays()">zurück zum Shop</button>
+        </div>
+    </section>
+
+    <section id="shopping_cart" class="shopping_cart responsive_shopping_cart">
+        <h2>Warenkorb</h2>
+
+        <div id="content_shopping_cart">
+            <p>Dein Warenkorb ist noch leer. Füge jetzt deine Lieblingsgerichte hinzu!</p>
+        </div>
+
+        <div class="seperator_shopping_cart"></div>
+
+        <div class="order_information">
+            <div class="margin_shopping_cart">
+                <p>Zwischensumme</p>
+                <div><p id="subtotal">0<p>€</p></p></div>
+            </div>
+            <div class="margin_shopping_cart">
+                <p>Versandkosten</p>
+                <div><p id="shipping_costs">5.00<p>€</p></p></div>
+            </div>
+            <div class="bold margin_shopping_cart">
+                <p>Gesamt</p>
+                <div><p id="total">0<p>€</p></p></div>
+            </div>
+        </div>
+
+        <button onclick="submitOrder()" id="submit_order" class="margin_shopping_cart">Jetzt bestellen!</button>
+    </section>
+
+    <main>
+        <div class="seperator"></div>
+        <img class="aot_img" src="./assets/img/aot.jpg" alt="aot">
+        <img class="logo" src="./assets/icons/icon_bestellapp.png" alt="Icon">
+        <h1 class="padding-responsive">Delicious Food</h1>
+        <p class="padding-responsive">Bewertung (4,5 von 5 Sternen)</p>
+
+        <section class="navbar padding-responsive">
+            <img class="navbar_arrow" src="./assets/icons/arrow.png" alt="arrow">
+            <div>
+                <a href="#category0" class="link">Vorspeisen</a>
+                <a href="#category1" class="link">Hauptgerichte</a>
+                <a href="#category2" class="link">Nachtische</a>
+                <a href="#category3" class="link">Getränke</a>
+            </div>
+        </section>
+
+        <div id="responsive_seperator" class="seperator"></div>
+
+        <section id="dishes_categories">
+
+        </section>
+
+    </main>
+
+    <div id="btn_media">
+        <button onclick="toggleResponsiveShoppingCart()">Warenkorb</button>
+    </div>
+
+    <footer class="padding-responsive">
+        <img src="./assets/icons/facebook_logo.png" alt="Facebook">
+        <img src="./assets/icons/instagram_logo.png" alt="Instagram">
+        <img src="./assets/icons/tripadvisor_logo.png" alt="Tripadvisor">
+    </footer>
+</body>
+
+</html>

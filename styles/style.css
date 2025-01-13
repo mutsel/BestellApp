@@ -1,0 +1,233 @@
+.header_logo {
+    height: 80px;
+}
+
+
+.seperator {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(32, 33, 36, 0.8);
+    box-shadow: #efefefa8 0px 0px 8px 2px;
+}
+
+
+.aot_img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.logo {
+    height: 120px;
+    position: absolute;
+    top: 432px;
+    right: 0;
+    width: 120%;
+    object-fit: contain;
+}
+
+
+.navbar {
+    background-color: rgb(32, 33, 36);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: sticky;
+    top: 0;
+}
+
+
+.navbar_arrow {
+    height: 32px;
+    padding: 16px 0 16px 0;
+}
+
+
+.navbar div {
+    flex: 1;
+    display: flex;
+    gap: 80px;
+}
+
+
+.navbar a {
+    font-size: 18px;
+}
+
+
+#responsive_seperator {
+    display: none;
+}
+
+
+.dish_category {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+
+.dish_category img {
+    height: 320px;
+    width: 100%;
+    padding-top: 20px;
+    object-fit: cover;
+}
+
+
+.dish_category h2 {
+    margin-top: 24px;
+}
+
+
+.dishes {
+    padding: 8px 40px 24px 16px;
+    box-shadow: #efefefa8 0px 0px 8px -2px;
+}
+
+
+.dish_description {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.dish_description p {
+    flex: 1;
+    padding-right: 64px;
+}
+
+
+.add_dish {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    color: #efefefa8;
+    font-size: 32px;
+    background-color: rgb(41, 42, 45);
+    border-color: #efefefa8;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.add_dish:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+footer img {
+    height: 64px;
+    filter: grayscale(50%);
+    z-index: 0;
+}
+
+footer img:hover {
+    filter: grayscale(0%) brightness(120%);
+}
+
+#order_completed {
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#order_completed div {
+    position: fixed;
+    background-color: rgb(41, 42, 45);
+    top: 20%;
+    width: 480px;
+    height: 640px;
+    padding: 32px 64px 32px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid #efefefa8;
+    border-width: 2px;
+    border-radius: 20px;
+    box-shadow: #efefefa8 0px 0px 8px 2px;
+}
+
+
+#order_completed p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+#order_completed button {
+    margin-top: 120px;
+    padding: 0;
+    width: 240px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    color: #efefefa8;
+    background-color: rgb(32, 33, 36);
+    border-radius: 8px;
+}
+
+
+#order_completed button:hover {
+    color: rgb(255, 255, 255);
+    border-color: #efefefa8;
+    cursor: pointer;
+}
+
+
+.overlay {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(32, 33, 36, 0.5);
+}
+
+
+#btn_media {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 104px;
+    background-color: rgb(32, 33, 36);
+    display: none;
+    box-shadow: #efefefa8 0px 0px 6px 2px;
+}
+
+
+#btn_media button {
+    height: 50%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 128, 0);
+    border: hidden;
+    border-radius: 8px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#btn_media button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.911);
+    color: rgb(255, 128, 0);
+    border: solid rgb(255, 128, 0);
+    border-width: 2px;
+}

@@ -1,0 +1,739 @@
+@media (min-width: 1900px) {
+    main {
+        margin-right: 380px;
+    }
+
+    .shopping_cart {
+        width: 380px !important;
+        margin-left: 64px;
+    }
+}
+
+
+@media (max-width: 1250px) {
+    h1 {
+        font-size: 36px;
+        margin: 36px 0 12px 0;
+    }
+    
+    h2 {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        margin-bottom: 32px;
+    }
+    
+    .padding-responsive {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    footer {
+        height: 104px;
+    }
+
+    .header_logo {
+        height: 72px;
+    }
+
+    .aot_img {
+        height: 384px;
+    }
+
+    .logo {
+        height: 112px;
+    }
+
+    .navbar {
+        gap: 20px;
+    }
+    
+    .navbar_arrow {
+        height: 28px;
+        padding: 16px 0 16px 0;
+    }
+    
+    .navbar div {
+        gap: 64px;
+    }
+
+    .dish_category {
+        margin-bottom: 20px;
+    }
+    
+    .dish_category img {
+        height: 304px;
+        padding-top: 18px;
+    }
+
+    .dish_category h2 {
+        margin-top: 20px;
+    }
+
+    .dishes {
+        padding: 8px 32px 20px 14px;
+    }
+    
+    .dish_description p {
+        padding-right: 88px;
+    }
+
+    .add_dish {
+        width: 36px;
+        height: 36px;
+        font-size: 30px;
+        border-radius: 6px;
+    }
+
+    #order_completed div {
+        width: 360px;
+        height: 480px;
+        padding: 24px 48px 24px 48px;
+        border-radius: 18px;
+    }
+
+    #order_completed p {
+        font-size: 28px;
+    }
+
+    #order_completed button {
+        margin-top: 104px;
+        width: 220px;
+    }
+
+    .margin_shopping_cart {
+        margin: 0 16px 0 16px;
+    }
+
+    .shopping_cart h2 {
+        font-size: 28px !important;
+    }
+
+    #content_shopping_cart p {
+        font-size: 16px !important;
+    }
+
+    .item_information {
+        padding: 8px 0 28px 0 !important;
+        font-size: 16px;
+    }
+
+    .remove_add {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .delete_all {
+        height: 20px !important;
+    }
+
+    .order_information {
+        padding-top: 12px !important;
+    }
+
+    .order_information p {
+        font-size: 16px !important;
+    }
+
+    #submit_order {
+        height: 28px !important;
+        border-radius: 8px !important;
+        font-size: 18px !important;
+    }
+}
+
+
+@media (max-width: 1150px) {
+    main {
+        margin-right: 226px;
+    }
+    
+    .shopping_cart {
+        width: 226px !important;
+    }
+    
+    .order_information {
+        flex-direction: row;
+    }
+    
+    
+    .order_information div {
+        flex-direction: column;
+    }
+
+    .order_information div div {
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    h1 {
+        margin: 72px 0 12px 0;
+    }
+
+    .padding-responsive {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .navbar div {
+        gap: 56px;
+    }
+}
+
+
+@media (max-width: 920px) {
+    h1 {
+        font-size: 28px;
+        margin: 44px 0 12px 0;
+    } 
+    
+    h2 {
+        font-size: 26px;
+    } 
+    
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 28px;
+    }
+    
+    .padding-responsive {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    footer {
+        height: 96px;
+    }
+
+    .header_logo {
+        height: 64px;
+    }
+
+    .aot_img {
+        height: 320px;
+    }
+
+    .logo {
+        height: 88px;
+        top: 372px;
+    }
+    
+    .navbar_arrow {
+        height: 24px;
+        padding: 14px 0 14px 0;
+    }
+    
+    .navbar div {
+        gap: 40px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .dish_category {
+        margin-bottom: 16px;
+    }
+    
+    .dish_category img {
+        height: 200px;
+        padding-top: 14px;
+    }
+
+    .dish_category h2 {
+        margin-top: 14px;
+        margin-bottom: 8px;
+    }
+
+    .dishes {
+        padding: 8px 24px 0 14px;
+    }
+    
+    .dish_description p {
+        padding-right: 72px;
+        font-size: 14px;
+    }
+
+    .add_dish {
+        width: 32px;
+        height: 32px;
+        font-size: 28px;
+        border-radius: 6px;
+    }
+
+    footer img {
+        height: 48px;
+    }
+
+    #order_completed div {
+        width: 320px;
+        height: 400px;
+        padding: 20px 32px 20px 32px;
+        border-radius: 16px;
+    }
+
+    #order_completed p {
+        font-size: 24px;
+    }
+
+    #order_completed button {
+        margin-top: 88px;
+        width: 204px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 830px) {
+    .padding-responsive {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .navbar_arrow {
+        height: 22px;
+    }
+    
+    .navbar div {
+        gap: 32px;
+    }
+
+}
+
+
+@media (max-width: 770px) {
+    main {
+        width: 100%;
+        padding-bottom: 48px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin: 56px 0 12px 0;
+    }
+    
+    h2 {
+        font-size: 26px;
+        margin-bottom: 12px !important;
+    }
+    
+    h3 {
+        font-size: 18px;
+        margin-bottom: 4px;
+        padding-right: 64px;
+    }
+    
+    p {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+    
+    .padding-responsive {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    footer {
+        height: 112px;
+        margin-bottom: 104px;
+    }
+
+    footer img {
+        height: 56px;
+    }
+
+    .header_logo {
+        height: 80px;
+    }
+    
+    .aot_img {
+        height: 320px;
+    } 
+    
+    .logo {
+        height: 96px;
+        top: 380px;
+        width: 100%;
+    }
+
+    .navbar {
+        gap: 16px;
+    }
+    
+    .navbar_arrow {
+        height: 22px;
+        padding: 16px 0 16px 0;
+    }
+    
+    .navbar div {
+        gap: 48px;
+    }
+    
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .dish_category {
+        margin-bottom: 20px;
+    }
+    
+    .dish_category img {
+        height: 280px;
+        padding-top: 12px;
+    }
+    
+    .dish_category h2 {
+        margin-top: 8px;
+    } 
+    
+    .add_dish {
+        width: 36px;
+        height: 36px;
+        font-size: 28px;
+        border-radius: 8px;
+    }
+
+    #responsive_overlay {
+        z-index: 5;
+    }
+
+    #order_completed {
+        z-index: 6;
+    }
+
+    #btn_media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shopping_cart {
+        z-index: 4 !important;
+        height: 40% !important;
+        width: 100% !important;
+        top: auto !important;
+        padding-bottom: 24px;
+        bottom: 0;
+        left: 0;
+    }
+
+    .shopping_cart h2 {
+        font-size: 32px !important;
+        padding: 20px 0 16px 0 !important;
+    }
+
+    .order_information {
+        padding: 24px 0px 16px 0px;
+        flex-direction: column !important;
+        gap: 8px;
+    }
+
+    .order_information div {
+        flex-direction: row;
+    }
+
+    .order_information div p {
+        font-size: 20px !important;
+        font-weight: 500;
+    }
+
+    #submit_order {
+        margin-bottom: 16px !important;
+        height: 68px !important;
+        font-size: 20px !important;
+    }
+
+    .margin_shopping_cart {
+        margin: 0 96px 0 96px !important;
+    }
+
+    .responsive_shopping_cart {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 680px) {
+    .padding-responsive {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+    .aot_img {
+        height: 296px;
+    } 
+
+    .logo {
+        height: 88px;
+        top: 360px;
+    }
+    
+    .navbar div {
+        gap: 40px;
+    }
+
+    .dish_category img {
+        height: 256px;
+    }
+
+    .margin_shopping_cart {
+        margin: 0 64px 0 64px !important;
+    }
+}
+
+
+@media (max-width: 600px) {
+    main {
+        padding-bottom: 32px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    
+    .padding-responsive {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    footer {
+        height: 64px;
+    }
+
+    .header_logo {
+        height: 64px;
+    }
+
+    .aot_img {
+        height: 280px;
+    } 
+
+    .logo {
+        top: 344px;
+    }
+
+    .navbar {
+        gap: 12px;
+    }
+    
+    .navbar div {
+        gap: 24px;
+    }
+
+    .dish_category img {
+        height: 232px;
+    }
+
+    .shopping_cart {
+        height: 50% !important;
+    }
+
+    .margin_shopping_cart {
+        margin: 0 56px 0 56px !important;
+    }
+
+    #order_completed div {
+        width: 240px;
+        height: 320px;
+        border-radius: 12px;
+    }
+
+    #order_completed p {
+        font-size: 20px;
+    }
+
+    #order_completed button {
+        margin-top: 72px;
+        width: 196px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+    .aot_img {
+        height: 240px;
+    } 
+
+    .logo {
+        top: 288px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #responsive_seperator {
+        display: flex;
+        margin-bottom: 16px;
+        box-shadow: #efefefa8 0px 0px 2px 1px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    footer {
+        margin-bottom: 80px !important;
+    }
+
+    footer img {
+        height: 48px;
+    }
+    
+    .padding-responsive {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    #btn_media {
+        height: 80px;
+    }
+
+    #btn_media button {
+        height: 60%;
+        width: 60%;
+        border-radius: 6px;
+        font-size: 18px;
+    }
+
+    .shopping_cart {
+        padding-bottom: 16px;
+    }
+
+    .shopping_cart h2 {
+        font-size: 28px !important;
+        padding: 16px 0 8px 0 !important;
+    }
+
+    #content_shopping_cart p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .item_information {
+        font-size: 14px;
+    }
+
+    .order_information {
+        padding: 20px 0px 12px 0px;
+        gap: 6px;
+    }
+
+    .order_information div p {
+        font-size: 16px !important;
+        font-weight: 500;
+    }
+
+    #submit_order {
+        margin-bottom: 16px !important;
+        height: 48px !important;
+        font-size: 18px !important;
+    }
+
+    .margin_shopping_cart {
+        margin: 0 40px 0 40px !important;
+    }
+}
+
+
+@media (max-width: 400px) {
+    main {
+        padding-bottom: 24px;
+    }
+
+    h1 {
+        margin: 48px 0 12px 0;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        margin-bottom: 24px;
+    }
+    
+    footer {
+        height: 56px;
+    }
+
+    footer img {
+        height: 40px;
+    }
+    
+    .header_logo {
+        height: 56px;
+    }
+    
+    .aot_img {
+        height: 200px;
+    } 
+
+    .logo {
+        height: 72px;
+        top: 256px;
+    }
+
+    #responsive_seperator {
+        margin-bottom: 8px;
+    }
+
+    .dish_category img {
+        height: 176px;
+    }
+
+    .dishes {
+        padding: 8px 14px 0 14px;
+    }
+
+    .dish_description p {
+        padding-right: 24px;
+    }
+
+    #order_completed div {
+        width: 240px;
+        height: 320px;
+        padding: 8px 16px 8px 16px;
+        border-radius: 16px;
+    }
+
+    #order_completed p {
+        font-size: 20px;
+    }
+
+    #order_completed button {
+        margin-top: 72px;
+        width: 184px;
+        font-size: 18px;
+    }
+}
